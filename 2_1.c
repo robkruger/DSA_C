@@ -8,7 +8,7 @@ int main(void){
     long m = 2000000000;
 
     printf("i= %d\n", i);
-    printf(" j=%d , k=%d , l=%d , m=%ld\n ", j, k, l, m) ;
+    printf("j=%d, k=%d, l=%d, m=%ld\n", j, k, l, m) ;
     j = 2*j, k = 2*k, l = 2*l, m = 2*m;
     printf("2*j=%d, 2*k=%d, 2*l=%d, 2*m=%d\n", j, k, l, m);
 
