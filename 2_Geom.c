@@ -5,9 +5,11 @@ int main(int argc, char *argv[]) {
    int n;
    scanf("%lf %i %lf", &a, &n, &r);
    double result = 0;
+   
    for(int i = 0; i <= n; i++){
       result += a * pow(r, i);
-   }
+   }  
    printf("%.2f", result);
+   
    return 0;
 }
