@@ -3,8 +3,8 @@
 int main(int argc, char *argv[]) {
    double a, r;
    int n;
-   scanf("%lf %i %lf", &a, &n, &r);
    double result = 0;
+   scanf("%lf %i %lf", &a, &n, &r);
    
    for(int i = 0; i <= n; i++){
       result += a * pow(r, i);
