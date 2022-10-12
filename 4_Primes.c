@@ -9,11 +9,9 @@ int is_prime (int number){
     int i = 2;
     int result = 1;
     for(int i = 2; i <= sqrt(number); i++){
-        if((i * i) <= number){
-            if(number % i == 0){
-                result = 0;
-                break;
-            }
+        if((i * i) <= number && number % i == 0){
+            result = 0;
+            break;
         }
     }
     if(!result){
