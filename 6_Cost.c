@@ -27,7 +27,6 @@ int main(void){
             sum += amounts[i][j] * prices[j];
         }
         printf("%.2f\n", sum);
-
     }
 
     return 0;
