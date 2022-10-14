@@ -1,3 +1,9 @@
+/*
+Student: Rob Krüger
+Number: 5780608
+Assignment: 5_ABC
+*/
+
 #include <stdio.h>
 
 void abc (void);

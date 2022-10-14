@@ -1,0 +1,8 @@
+john a 18
+sara f 19
+bob f 20
+ann a 20
+emma f 22
+amalia a 18
+william f 26
+daniel a 24
